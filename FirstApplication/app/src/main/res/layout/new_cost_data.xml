@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/et_cost_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="Cost Title" />
+
+    <EditText
+        android:id="@+id/et_cost_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="Cost Money"/>
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dp_cost_date"
+        android:layout_margin="4dp"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"/>
+
+</LinearLayout>
