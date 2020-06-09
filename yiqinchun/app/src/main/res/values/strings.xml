@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">益青春</string>
+    <string name="txt1">益青春</string>
+    <string name="txt2">健康</string>
+    <string name="txt3">活动</string>
+    <string name="txt4">分享</string>
+    <string name="txt5">我的</string>
+    <string name="txt6">这是微信聊天界面</string>
+    <string name="txt7">这是朋友圈界面</string>
+    <string name="txt8">这是通讯录界面</string>
+    <string name="txt9">这是设置界面</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt02">活动</string>
+    <string name="search">search</string>
+    <string name="dongtai">dongtai</string>
+    <string name="tup1">tup1</string>
+    <string name="setting">setting</string>
+    <string name="touxiang">touxiang</string>
+    <string name="daka">daka</string>
+    <string name="shoucang">shoucang</string>
+    <string name="aa" />
+    <string name="login">登录</string>
+    <string name="prompt_email">电话号码</string>
+    <string name="prompt_password">密码</string>
+    <string name="ehint">请输入电话号码</string>
+    <string name="phint">请输入密码</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

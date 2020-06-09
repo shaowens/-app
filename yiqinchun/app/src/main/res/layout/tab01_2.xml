@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greenback">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="87dp">
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/background_light"
+            android:clickable="false"
+            android:contentDescription="@string/setting"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.069"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.617"
+            app:srcCompat="@drawable/back" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="每日运动"
+            android:textColor="@android:color/background_dark"
+            android:textSize="36sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.421" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="508dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/editText01_2_1"
+            style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+            android:layout_width="55dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:hint="打卡内容"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.955"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.211"
+            android:autofillHints=""
+             />
+
+        <Spinner
+            android:id="@+id/spinnner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/ctype"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.427" />
+
+        <Chronometer
+            android:id="@+id/timer"
+            android:layout_width="273dp"
+            android:layout_height="118dp"
+            android:layout_marginBottom="336dp"
+            android:format="00:00:00"
+            android:gravity="center"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.434"
+            app:layout_constraintStart_toStartOf="parent"
+             />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="101dp"
+            android:layout_height="52dp"
+            android:gravity="center"
+            android:text="运动时长"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <DatePicker
+            android:id="@+id/date"
+            android:layout_width="358dp"
+            android:layout_height="111dp"
+            android:layout_margin="40dp"
+            android:calendarViewShown="false"
+
+            android:datePickerMode="spinner"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.698"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button01_2_1"
+            android:layout_width="154dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="192dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/button_drawable_grey"
+            android:onClick="clearClick"
+            android:text="清空"
+
+            android:textSize="20dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.03" />
+
+        <EditText
+            android:id="@+id/editText01_2_2"
+            style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+            android:layout_width="78dp"
+            android:layout_height="53dp"
+
+            android:ems="10"
+            android:hint="用户名"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageButton01_2_1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="stopClick"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/background_light"
+            android:clickable="false"
+            android:contentDescription="@string/search"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.882"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/stop" />
+
+        <ImageButton
+            android:id="@+id/imageButton01_2_2"
+            android:layout_width="72dp"
+            android:layout_height="70dp"
+            android:onClick="startClick"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/background_light"
+            android:clickable="false"
+            android:contentDescription="@string/search"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.472"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/next" />
+
+        <Button
+            android:id="@+id/button01_2_2"
+            android:layout_width="100dp"
+            android:layout_height="83dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:textSize="24dp"
+            android:text="打卡"
+            android:onClick="DataPost"
+            android:background="@drawable/button_drawable_grey"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView01_2_2"
+        android:layout_width="401dp"
+        android:layout_height="137dp"
+        android:text="TextView" />
+</LinearLayout>

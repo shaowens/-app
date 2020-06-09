@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ctype">
+        <item>打卡项目</item>
+        <item>练瑜伽</item>
+        <item>打篮球</item>
+        <item>踢足球</item>
+        <item>身体素质训练</item>
+        <item>打羽毛球</item>
+        <item>打乒乓球</item>
+        <item>游泳</item>
+        <item>练拳击</item>
+        <item>有氧跑</item>
+    </string-array>
+</resources>

@@ -1,0 +1,186 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/greenback">
+
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/background_light"
+        android:clickable="false"
+        android:contentDescription="@string/setting"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView01_1_3_3"
+        android:layout_width="117dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="137dp"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="身高"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/button01_1_3_1"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="377dp"
+
+        android:background="@drawable/button_drawable_brown"
+        android:gravity="center"
+        android:text="查看结果"
+        android:textSize="20sp"
+        android:layout_marginStart="130dp" />
+
+    <EditText
+        android:id="@+id/editText01_1_3_2"
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:ems="10"
+        android:hint="CM"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView01_1_3_1"
+        android:layout_width="114dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginLeft="146dp"
+        android:layout_marginTop="2dp"
+        android:text="基础代谢"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView01_1_3_6"
+        android:layout_width="276dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="66dp"
+        android:layout_marginRight="66dp"
+        android:layout_marginBottom="174dp"
+        android:gravity="center"
+        android:text="您的基础代谢为"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/textView01_1_3_2"
+        android:layout_width="117dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="79dp"
+        android:gravity="center"
+        android:text="性别"
+        android:textSize="27sp" />
+
+    <EditText
+        android:id="@+id/editText01_1_3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:ems="10"
+        android:hint="SEX"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView01_1_3_4"
+        android:layout_width="114dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="201dp"
+        android:gravity="center"
+        android:text="体重"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/textView01_1_3_5"
+        android:layout_width="112dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="277dp"
+        android:gravity="center"
+        android:text="年龄"
+        android:textSize="27sp" />
+
+    <EditText
+        android:id="@+id/editText01_1_3_3"
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:ems="10"
+        android:hint="KG"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText01_1_3_4"
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="366dp"
+        android:ems="10"
+        android:hint="AGE"
+        android:inputType="number" />
+
+</RelativeLayout>

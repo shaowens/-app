@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greenback">
+
+    <TextView
+        android:id="@+id/textView1031"
+        android:layout_width="415dp"
+        android:layout_height="96dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="78dp"
+        android:text="
+
+蔬菜：辣椒、青椒、彩椒、洋葱、花椰菜、甜豆、豌豆、芹菜、莴苣、荠菜、油菜、菠菜、香椿、春笋、马兰头、瓠瓜、韭菜。
+
+                                                                                                                                 水果：番石榴、青枣、枇杷、桑葚、樱桃、莲雾（春末）。" />
+
+    <TextView
+        android:id="@+id/textView1033"
+        android:layout_width="415dp"
+        android:layout_height="96dp"
+
+
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="400dp"
+
+        android:text="
+
+蔬菜：秋葵、菱角、莲藕、辣椒、栗子、冬瓜、四季豆（芸豆）、地瓜叶、豆角、山药、白菜、扁豆。
+
+                                                水果：柚子、梨、柿子、木瓜、苹果、莲子、甘蔗、葡萄、火龙果、杨桃、番石榴、杏、橘子、红枣、山楂、核桃。" />
+
+    <TextView
+        android:id="@+id/textView1032"
+        android:layout_width="415dp"
+        android:layout_height="96dp"
+
+
+
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="232dp"
+        android:text="
+
+蔬菜：辣椒、丝瓜、苦瓜、冬瓜、菜豆、芦笋、茭白、洋葱、黄瓜、佛手瓜、南瓜、苋菜、山苏、空心菜、龙须菜、地瓜叶、竹笋、生菜、西红柿、卷心菜、茄子。
+
+水果：草莓、莲雾、桃、李、西瓜、菠萝、芒果、柠檬、百香果、火龙果、杏、荔枝、猕猴桃、香蕉、椰子、樱桃。" />
+
+    <TextView
+        android:id="@+id/textView1034"
+        android:layout_width="415dp"
+        android:layout_height="96dp"
+
+
+
+
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="562dp"
+        android:text="
+蔬菜：青椒、卷心菜、白菜、洋葱、花椰菜、胡萝卜、萝卜、甜豆、芹菜、菠菜、芥菜、葵年菜、莴苣。
+
+                                                          水果：橙、橘子、柚子、青枣、甘蔗、释迦。" />
+
+    <TextView
+        android:id="@+id/textView1035"
+        android:layout_width="97dp"
+        android:layout_height="49dp"
+
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="春" />
+
+    <TextView
+        android:id="@+id/textView1036"
+        android:layout_width="97dp"
+        android:layout_height="49dp"
+
+        android:layout_marginTop="175dp"
+        android:gravity="center"
+        android:text="夏"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView1037"
+        android:layout_width="97dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="340dp"
+        android:gravity="center"
+        android:text="秋"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView1038"
+        android:layout_width="97dp"
+        android:layout_height="49dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="500dp"
+        android:gravity="center"
+        android:text="冬"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>

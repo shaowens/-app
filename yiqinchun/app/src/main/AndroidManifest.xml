@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication5">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 允许应用程序联网（必须） -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 允许访问WiFi网络状态信息（必须） -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 允许读取手机状态（必须） -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 允许访问网络状态（必须） -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 允许写手机存储（必须） -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" /> <!-- GUI自动填充验证码功能（非必须） -->
+    <uses-permission android:name="android.permission.READ_SMS" /> <!-- 从短信中读取验证码接口（非必须） -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" /> <!-- 应用内好友功能（非必须） -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".splashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".SActivity" />
+        <activity android:name=".LoginActivity">
+
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".myhealth" />
+        <activity android:name=".myhealth_1" />
+        <activity android:name=".myhealth_2" />
+        <activity android:name=".myhealth_3" />
+        <activity android:name=".regimen" />
+        <activity android:name=".regimen_1" />
+        <activity android:name=".regimen_2" />
+        <activity android:name=".regimen_3" />
+        <activity android:name=".exercise" />
+        <activity android:name=".exercisemaster" />
+        <activity android:name=".knowledge" />
+        <activity android:name=".foods" />
+        <activity android:name=".test" />
+        <activity android:name=".myclasses" />
+        <activity android:name=".photo" />
+        <activity android:name=".setting" />
+        <activity android:name=".change" />
+        <activity android:name=".message" />
+        <activity android:name=".calendard" />
+        <activity android:name=".UploadActivity" />
+        <activity android:name=".ListActivity" />
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/greenback">
+
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/background_light"
+        android:clickable="false"
+        android:contentDescription="@string/setting"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView01_1_2_1"
+        android:layout_width="117dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="202dp"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="身高"
+        android:textSize="27sp" />
+
+
+    <Button
+        android:id="@+id/button01_1_2_1"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="334dp"
+
+        android:background="@drawable/button_drawable_brown"
+        android:gravity="center"
+        android:text="查看结果"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText01_1_2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="CM"
+         />
+
+    <TextView
+        android:id="@+id/textView01_1_2_3"
+        android:layout_width="114dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginLeft="159dp"
+        android:layout_marginTop="-1dp"
+        android:text="标准体重"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView01_1_2_2"
+        android:layout_width="276dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="205dp"
+        android:gravity="center"
+        android:text="您的最佳体重为"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/textView01_1_2_4"
+        android:layout_width="117dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="118dp"
+        android:gravity="center"
+        android:textSize="27sp"
+        android:text="性别" />
+
+    <EditText
+        android:id="@+id/editText01_1_2_2"
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="SEX" />
+
+</RelativeLayout>

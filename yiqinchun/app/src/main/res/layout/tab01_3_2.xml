@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greenback">
+
+    <TextView
+        android:id="@+id/textView0130"
+        android:layout_width="242dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:text="为了保持良好的健康状态，为您推荐以下套餐"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView0131"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="81dp"
+        android:text="         搭配餐A：
+
+　　早餐：馒头、牛奶(或豆奶、酸奶)、煮荷包蛋1个、酱黄瓜;水果：夏橙或白萝卜1个。
+
+　　中餐：荞麦大米饭、香菇菜心、糖醋带鱼、豆腐、血旺丝瓜汤。
+
+　　晚餐：绿豆粥、白菜猪肉包子、虾皮冬瓜。"
+        app:layout_constraintBottom_toTopOf="@+id/textView0132"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView0132"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="　　搭配餐B：
+
+　　早餐：玉米窝窝头、牛奶(或豆奶、酸奶)、卤五香盐茶蛋1个、豆腐乳(1/4块);水果：枇杷(或长生果)3~4个。
+
+　　中餐：花生米饭、肉末茄子、葱花土豆泥、鸭子海带汤。
+
+　　晚餐：冬苋菜稀饭、豆沙包、辣椒榨菜肉丝。"
+        app:layout_constraintBottom_toTopOf="@+id/textView0133"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView0131" />
+
+    <TextView
+        android:id="@+id/textView0137"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="161dp"
+        android:text="　　搭配餐G：
+
+　　早餐：芝麻酱花卷、牛奶(或豆奶、酸奶)、煮鸡蛋1个、豆豉凤尾鱼;水果：苹果(或萝卜)1个。
+
+　　中餐：金银饭(玉米糁、标米)、黑木耳笋子烧鸡、糖醋白菜、绿豆南瓜汤。
+
+　　晚餐：韭菜猪肉饺子、蒜泥藤藤菜、肉末炒豇豆。"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView0136" />
+
+    <TextView
+        android:id="@+id/textView0135"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="　　搭配餐E：
+
+　　早餐：酱肉包、牛奶、素炒三丝(莴笋、白萝卜、胡萝卜)、鹌鹑蛋2个;水果：猕猴桃(或桃子)1~2个。
+
+　　中餐：赤豆米饭、魔芋烧鸭、红椒炒花菜、鱼头香菇冬苋菜汤。
+
+　　晚餐：芹菜猪肉包子、西红柿炒鸡蛋、肉末豆腐脑。"
+        app:layout_constraintBottom_toTopOf="@+id/textView0136"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView0134" />
+
+    <TextView
+        android:id="@+id/textView0136"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="　　搭配餐F：
+
+　　早餐：面包、牛奶、煎鸡蛋1个、卤五香豆腐干;水果：草莓(或李子)5~6个。
+
+　　中餐：二米饭(大米、小米)、五香耗儿鱼、五彩银丝(黄豆芽、胡萝卜、莴笋)、鸡腿菇木耳菜猪肝汤。
+
+　　晚餐：玉米粥、鸡蛋发糕、鱼香肉丝。"
+        app:layout_constraintBottom_toTopOf="@+id/textView0137"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView0135" />
+
+    <TextView
+        android:id="@+id/textView0134"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="　　搭配餐D：
+
+　　早餐：苹果酱花卷、牛奶(或豆奶、酸奶)、煮荷包蛋1个、炒泡豇豆;水果：香蕉(或黄瓜)1个。
+
+　　中餐：二米饭(黑米、标米)、香菇黄花黑木耳肉片、红椒炒黄瓜、白萝卜海带排骨汤。
+
+　　晚餐：豆浆稀饭、葱花煎饼、菜椒芹菜肉丝。"
+        app:layout_constraintBottom_toTopOf="@+id/textView0135"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView0133" />
+
+    <TextView
+        android:id="@+id/textView0133"
+        android:layout_width="413dp"
+        android:layout_height="0dp"
+        android:text="　　搭配餐C：
+
+　　早餐：鲜肉包、牛奶(或豆奶、酸奶)、咸鸭蛋(半个)、素炒三丝(莴笋、白萝卜、胡萝卜);水果：鸭梨(或西瓜)一个。
+
+　　中餐：红枣米饭、黄豆烧牛肉、干煸四季豆、金针菇紫菜蛋汤。
+
+　　晚餐：三鲜面块(猪肝、火腿肠、黑木耳、平菇)、清炒菠菜、青椒土豆丝。"
+        app:layout_constraintBottom_toTopOf="@+id/textView0134"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView0132" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
